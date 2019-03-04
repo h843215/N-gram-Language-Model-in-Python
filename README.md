@@ -1,3 +1,6 @@
-# N-gram-Language-Model-in-Python
+# N-gram Language Model in Python
 
-   This n-grams language model can deal with the small tasks such as tokenize, detokenize, get n-grams and retrieve the counts and probability of words.
+   This n-grams language model can deal with the small tasks such as tokenize, detokenize, get n-grams and retrieve the counts and probability of words from language data.
+   
+# Instruction
+   This is the n-gram language model. You could first run main.py by using python shell. First, it will show up the small window where you can upload and save your text file which you're going to analyze. Then, you can close the window and typing the fuctions from corpus.py and lm.py on the python shell to examine the text. From the corpus.py, you could use tokenize and detokenize functions to inspect the text. For tokenizing the text, you could first type "from corpus import tokenize" on the python shell then type "print(tokenize(your filename))". After that you would get the result you want. For detokenizing, you could follow the same instructions above just change "tokenize" to "detokenize". For the functions from lm.py, for example you would like to get n-grams, you could type "from lm import get_ngrams" on python shell then type "print(get_ngrams(your tokens, number of n-gram))". Then you would get the n-grams you want. For other functions, you could just change the name of function then you could get what you want.
